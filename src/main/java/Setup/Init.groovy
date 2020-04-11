@@ -6,7 +6,7 @@ import utils.UserUtils
 
 class Init extends Specification {
 
-    public static final String TEST_URL = "http://localhost:8083"
+    public static final String TEST_URL = "https://kummer.jfrog.io/"
     public static RESTClient client = new RESTClient(TEST_URL)
 
     // Admin credentials (after updating default password) - used to authenticate.
